@@ -71,6 +71,13 @@
   border-bottom-color: var(--border-bottom-color);
 }
 
+/* Next Block */
+.next-block {
+  display: grid;
+  grid-template-columns: repeat(4, var(--tile-size));
+  align-self: flex-start;
+}
+
 * {
   box-sizing: border-box;
 }
