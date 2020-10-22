@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Controls(props) {
   return (
-    <div>
+    <div className="controls">
       <button className="control-button" onClick={(e) => {}}> Left </button>
       <button className="control-button" onClick={(e) => {}}> Right </button>
       <button className="control-button" onClick={(e) => {}}> Rotate </button>
